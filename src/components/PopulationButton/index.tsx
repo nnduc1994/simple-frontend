@@ -61,7 +61,7 @@ const PopulationButton = (): JSX.Element => {
             </DialogTitle>
             <DialogContent>
                 <Box pt={2} pb={3}>
-                    <TextField label="Enter city" variant='outlined' value={city} onChange={handleOnTextChange} />
+                    <TextField id="city-input" label="Enter city" variant='outlined' value={city} onChange={handleOnTextChange} />
                 </Box>
                 <Box pb={3}>
                     <Button variant='contained' onClick={handleOnClick}>Check</Button>
