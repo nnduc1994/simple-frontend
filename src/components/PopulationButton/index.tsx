@@ -57,7 +57,7 @@ const PopulationButton = (): JSX.Element => {
     return (<>
     <Dialog onClose={handleClose} open={showDialog}>
             <DialogTitle>
-              Population Info
+              Population Info V2
             </DialogTitle>
             <DialogContent>
                 <Box pt={2} pb={3}>
